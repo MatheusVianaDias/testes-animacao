@@ -1,0 +1,125 @@
+
+
+body{
+    background:rgb(199, 231, 241)
+}
+
+h1{
+    text-align: center;
+    max-width: 60%;
+    height: 100%;
+    margin: 20px auto;
+    border:2px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.37);
+    transition: 1.5s;
+}
+
+h2 {
+    text-align: center;
+    max-width: 91%;
+    height: 100%;
+    margin: 20px auto;
+    border:2px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.37);
+}
+
+h1:hover{
+    box-shadow: 4px 4px 4px 3px rgba(163, 33, 33, 0.74);
+    transition: 1.5s;
+}
+
+h2:hover {
+    box-shadow: 4px 4px 4px 3px rgba(252, 11, 11, 0.74);
+    transition: 1.5s;
+}
+
+.inputa {
+    margin: 50px;
+    padding: 60px;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.281);
+    transition: 1.5s;
+    
+}
+
+.inputa:hover{
+    box-shadow: 6px 6px 5px 5px rgb(163, 33, 141);
+    transition: 1.5s;
+}
+
+#txtn1 {
+    width: 155px;
+    height: 1px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 14px;
+    margin: 3px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 5;
+    
+}
+
+#txtn1:hover{
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 10px rgb(250, 0, 0);
+    
+}
+
+#txtn2{
+    width: 155px;
+    height: 1px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding:14px;
+    margin: 3px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 5;
+    
+}
+
+#txtn2:hover{
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 10px rgb(250, 0, 0);
+}
+
+
+#btn {
+    width: 120px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 0px;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 5;
+    background: linear-gradient(-90deg, pink, red, orange);
+}
+
+#btn:hover {
+    transform: rotate(20deg);
+    box-shadow: 5px 5px 10px rgb(139, 51, 51);
+    transition: transform .3s, border 3s;
+}
+
+
+
+#res {
+    border-radius: 10px;
+    font-size: 35px;
+    box-shadow: 6px 6px 5px 5px rgba(12, 3, 11, 0.37);
+    transition: 1.5s;
+    
+}
+
+#res:hover{
+    box-shadow: 6px 6px 5px 5px rgba(73, 8, 148, 0.747);
+    transition: 1.5s;
+}
+
